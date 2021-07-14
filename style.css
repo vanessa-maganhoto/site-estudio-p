@@ -171,5 +171,79 @@ header, .navbar {
 
 .service-box:hover > i, .service-box:hover > h4{
     color: #e5989b;
+}
+
+/*Dados*/
+
+.circle-box div{
+    padding: 0 40px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+/*Colaboradores*/
+
+.card-body{
+    text-align: center;
+}
+
+/*Trabalhe conosco*/
+
+#apply-area{
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row{
+    height: 100%;
+}
+
+#apply-area .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+    height: 100%;
+}
+
+#company-img{
+    background-image: url(img/parallax.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img p{
+    color: white;
+}
+
+#pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #e5989b;
+}
+
+#pattern-img p{
+    margin-bottom: 20px;
+}
+
+#apply-btn {
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#apply-btn:hover{
+    color: #e5989b;
 
 }
