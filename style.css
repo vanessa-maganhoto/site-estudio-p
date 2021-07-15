@@ -245,5 +245,184 @@ header, .navbar {
 
 #apply-btn:hover{
     color: #e5989b;
+}
 
+/*Nossos projetos*/
+
+.project-box{
+    margin-bottom: 50px;
+}
+
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area .filter-btn{
+    color:white;
+    border: 1px solid #E5989B;
+    background-color: #E5989B;
+    text-transform: none;
+    min-width: 100px;
+    margin: 0 15px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+.project-box img{
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio-area .filter-btn .active, #portfolio-area .filter-btn:hover{
+    color: #E5989B;
+    background-color: transparent;
+}
+
+/* news letter */
+
+#news-area{
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#news-area p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #e5989b;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news-btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #e5989b;
+    background-color:#e5989b;
+    text-transform: uppercase;
+    color: white;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+
+#news-btn:hover{
+    background-color: white;
+    color: #e5989b;
+}
+
+/* Orçamento */
+
+#call-area{
+    background-color: #e5989b;
+    text-transform: uppercase;
+}
+
+#call-area .container{
+    padding: 40px 100px;
+}
+
+#call-area .row{
+    display: block;
+    text-align: center;
+}
+
+#call-area p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px; /*espaçamento entre as letras*/
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-area #call-btn{
+    background-color: white;
+    color: #e5989b;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    width: auto;
+    letter-spacing: 2px;
+}
+
+/*Footer*/
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #e5989b;
+}
+
+.contact-box i{
+    color: #6d6875;
+    border: solid 1px #e5989b;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p{
+    font-size: 16px;
+}
+
+.contact-title{
+    font-weight: bold;
+    color: #e5989b;
+}
+
+#msg-box p{
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea{
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn{
+    width: 150px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover{
+    color: #e5989b;
+}
+
+/*Copy*/
+
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-weight: bold;
+    color: #6d6875;
 }
