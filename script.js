@@ -150,10 +150,10 @@ $(document).ready(function(){
 
   let bannerSection = $('#mainSlider');
   let aboutSection = $('#about-area');
-  let servicesSection = $('#services-area');
+  let servicesSection = $('#service-area');
   let teamSection = $('#team-area');
   let portfolioSection = $('#portfolio-area');
-  let contactSection = $('#contact-area');
+  let contactSection = $('#call-area');
 
   let scrollTo = '';
 
@@ -163,13 +163,13 @@ $(document).ready(function(){
 
     if(btnId == 'about-menu') {
       scrollTo = aboutSection;
-    } else if(btnId == 'services-menu') {
+    } else if(btnId == 'servicos-menu') {
       scrollTo = servicesSection;
-    } else if(btnId == 'team-menu') {
+    } else if(btnId == 'time-menu') {
       scrollTo = teamSection;
-    } else if(btnId == 'portfolio-menu') {
+    } else if(btnId == 'projetos-menu') {
       scrollTo = portfolioSection;
-    } else if(btnId == 'contact-menu') {
+    } else if(btnId == 'contato-menu') {
       scrollTo = contactSection;
     } else {
       scrollTo = bannerSection;
